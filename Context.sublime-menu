@@ -1,0 +1,31 @@
+[
+    {
+        "caption": "-", 
+        "id": "side-bar-end-separator"
+    }, 
+    {
+        "caption": "X3Dom", 
+        "children": [
+            {
+                "caption": "Refresh X3Dom plugin", 
+                "command": "genx3domfiles"
+            }, 
+            {
+                "caption": "Edit X3Dom tags", 
+                "command": "editx3domtags"
+            }, 
+            {
+                "caption": "-", 
+                "id": "side-bar-end-separator"
+            }, 
+            {
+                "caption": "New X3Dom Project", 
+                "command": "newx3dproject"
+            }, 
+            {
+                "caption": "-", 
+                "id": "side-bar-end-separator"
+            }
+        ]
+    }
+]

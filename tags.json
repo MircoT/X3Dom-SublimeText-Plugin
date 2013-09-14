@@ -1,0 +1,39 @@
+{
+    "Geometry 3D": {
+        "box": {
+            "solid": ["TRUE"], 
+            "size": [2,2,2]
+        },
+        "sphere": {
+            "radius": [1],
+            "solid": ["TRUE"]
+        }
+    },
+    "Lighting": {
+        "pointLight": {
+            "ambientIntensity": [0], 
+            "attenuation": [1,0,0],
+            "color": [1,1,1],
+            "global": ["TRUE"],
+            "intensity": [1],
+            "location": [0,0,0],
+            "on": ["TRUE"],
+            "radius": [100]
+        }
+    },
+    "Grouping": {
+        "transform": {
+            "rotation": [0, 0, 1,0], 
+            "center": [0, 0, 0],
+            "scale": [1, 1, 1],
+            "scaleRotation": [0,0,1,0],
+            "translation": [0,0,0],
+            "bboxCenter": [0,0,0],
+            "bboxSize": [-1,-1,-1]
+        },
+        "group": {
+            "bboxCenter": [0,0,0],
+            "bboxSize": [-1,-1,-1]
+        }
+    }
+}
