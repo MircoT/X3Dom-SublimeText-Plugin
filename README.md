@@ -36,6 +36,9 @@ It also adds snippet codes, so you can use autocompletion with tab key and searc
 To see the project (web page) in the browser you can use [View in Browser](https://github.com/adampresley/sublime-view-in-browser) plugin
 for Sublime Text.
 
+**NOTES**: If you want to contribute to add some nodes editing only **tags.json** file for an easy merging. You can
+edit this file from sublime text by clicking on ```X3Dom -> Edit X3Dom tags```.
+
 # License
 
 The MIT License (MIT)
