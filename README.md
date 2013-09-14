@@ -39,6 +39,9 @@ for Sublime Text.
 **NOTES**: If you want to contribute to add some nodes editing only **tags.json** file for an easy merging. You can
 edit this file from sublime text by clicking on ```X3Dom -> Edit X3Dom tags```.
 
+**NOTES**: If you have problems after the first installation remember to restart Sublime Text before to use
+*Refresh X3Dom Plugin* function.
+
 # License
 
 The MIT License (MIT)
