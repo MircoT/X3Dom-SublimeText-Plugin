@@ -1,6 +1,5 @@
 *.pyc
 *.sublime-snippet
 *.sublime-menu
-*.sublime-menu
 X3Dom.py
 html_x3d_completions.py
