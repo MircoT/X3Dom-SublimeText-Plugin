@@ -9,7 +9,7 @@ class MyTagCompletions(sublime_plugin.EventListener):
     def on_query_completions(self, view, prefix, locations):
         # Only trigger within HTML
         if not view.match_selector(locations[0],
-                "text.html - source"):
+                "text.html"):
             return []
 
         pt = locations[0] - len(prefix) - 1
@@ -128,12 +128,12 @@ def Gen_all_completions(tags):
 def Gen_snippet_entry(tag_name, tag_contents):
     """Generate snippet string
     """
-    string = "<snippet>\n\t<content>\n\t\t<![CDATA[%s " % tag_name
+    string = "<snippet>\n\t<content>\n\t\t<![CDATA[<%s " % tag_name
     string += Gen_attributes(tag_contents).replace("\\\"", "\"")
     string += "></%s>" % tag_name
     string += "]]>\n\t</content>\n"
     string += "\t<tabTrigger>%s</tabTrigger>\n" % tag_name
-    string += "\t<scope>text.html - source</scope>\n</snippet>"
+    string += "\t<scope>text.html</scope>\n</snippet>"
     return string
 
 def Gen_all_snippets(tags):
