@@ -132,7 +132,7 @@ def Gen_snippet_entry(tag_name, tag_contents):
     string += Gen_attributes(tag_contents).replace("\\\"", "\"")
     string += "></%s>" % tag_name
     string += "]]>\n\t</content>\n"
-    string += "\t<tabTrigger>%s</tabTrigger>\n" % tag_name
+    string += "\t<tabTrigger>&lt;%s</tabTrigger>\n" % tag_name
     string += "\t<scope>text.html</scope>\n</snippet>"
     return string
 
